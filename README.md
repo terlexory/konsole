@@ -51,3 +51,7 @@ end)
 _G.konsole.onexecute:Once(function()
   -- code here
 end)
+
+# Accessing the Konsole GUI:
+
+_G.konsole.gui // returns the GUI
